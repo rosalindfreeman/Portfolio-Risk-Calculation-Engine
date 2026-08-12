@@ -35,7 +35,7 @@ PortfolioEngine link to VaRModel
          |
  ExpectedShortfallModel
         |
-RiskReport -----> renderer / API / persistence
+RiskReport -> renderer / API / persistence
 ```
 
 Each boundary is an interface (`Protocol`). A live feed can replace the in-memory
