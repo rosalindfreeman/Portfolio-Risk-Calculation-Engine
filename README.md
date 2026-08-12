@@ -8,21 +8,20 @@ portfolio analytics.
 ## Math:
 
 1. Market value: The portfolio’s current net value: long positions minus short positions. A net value of 900 means the portfolio has 900 more long exposure than short exposure.
-2. Unrealized P&L:
-3. P&L measures profit or loss.
-4. Volatility measures variability, including gains and losses.
-5. VaR estimates a loss threshold.
-6. Expected Shortfall estimates loss severity beyond that threshold.
-7. Covariance measures joint movement in raw return units.
-8. Correlation standardizes joint movement between −1 and +1.
-9. Scenarios are historical “what-if” outcomes, not forecasts.
-10. Market value: 900.00, The portfolio’s current net value: long positions minus short positions. A net value of 900 means the portfolio has 900 more long exposure than short exposure. 
-11. Unrealized P&L: 120.00 The profit currently showing on open positions. It is “unrealized” because the positions have not yet been closed. If closed at the stated prices, the portfolio would realize approximately 120 profit, ignoring costs. 
-12. Daily volatility: 66.05 The estimated standard deviation of the portfolio’s one-day P&L. In plain terms, historical daily P&L has typically varied by roughly 66 around its average. It is a risk measure, not a guaranteed maximum loss. 
-13. Annual volatility: 1,048.52** Daily P&L volatility scaled to approximately one trading year using 252 trading days. It expresses annual risk in currency units. It does not mean the portfolio is expected to lose 1,048.52.
-14. VaR (95%): 95.20**  The estimated one-period loss threshold at 95% confidence. Under the historical model, losses should be no greater than 95.20 in roughly 95% of comparable periods—and could exceed it in the worst 5%. 
-15. Expected Shortfall: 114.00** The estimated average loss when the loss exceeds the 95% VaR boundary. It describes the severity of the worst 5% of outcomes. Here, the limited data make it equal to the worst observed loss. 
-16. Scenarios: 5** Five historical return combinations were used. Each combination represents what would happen to today’s portfolio if those historical asset movements occurred again. 
+2. P&L measures profit or loss.
+3. Volatility measures variability, including gains and losses.
+4. VaR estimates a loss threshold.
+5. Expected Shortfall estimates loss severity beyond that threshold.
+6. Covariance measures joint movement in raw return units.
+7. Correlation standardizes joint movement between −1 and +1.
+8. Scenarios are historical “what-if” outcomes, not forecasts.
+9. Market value: 900.00, The portfolio’s current net value: long positions minus short positions. A net value of 900 means the portfolio has 900 more long exposure than short exposure. 
+10. Unrealized P&L: 120.00 The profit currently showing on open positions. It is “unrealized” because the positions have not yet been closed. If closed at the stated prices, the portfolio would realize approximately 120 profit, ignoring costs. 
+11. Daily volatility: 66.05 The estimated standard deviation of the portfolio’s one-day P&L. In plain terms, historical daily P&L has typically varied by roughly 66 around its average. It is a risk measure, not a guaranteed maximum loss. 
+12. Annual volatility: 1,048.52** Daily P&L volatility scaled to approximately one trading year using 252 trading days. It expresses annual risk in currency units. It does not mean the portfolio is expected to lose 1,048.52.
+13. VaR (95%): 95.20**  The estimated one-period loss threshold at 95% confidence. Under the historical model, losses should be no greater than 95.20 in roughly 95% of comparable periods—and could exceed it in the worst 5%. 
+14. Expected Shortfall: 114.00** The estimated average loss when the loss exceeds the 95% VaR boundary. It describes the severity of the worst 5% of outcomes. Here, the limited data make it equal to the worst observed loss. 
+15. Scenarios: 5** Five historical return combinations were used. Each combination represents what would happen to today’s portfolio if those historical asset movements occurred again. 
 
 
 
